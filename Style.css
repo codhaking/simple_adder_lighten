@@ -1,0 +1,77 @@
+.main{
+	border: 1px;
+	border-color: black;
+	border-style: dotted;
+	max-width: 250px;
+	height: 50vh;
+	padding: 50px;
+	margin-bottom: 30px;
+	margin: auto;
+	background-image: url("img.jpg"), radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	background-blend-mode: lighten;
+	background-size: cover;
+}
+
+
+h3{
+	margin: 0;
+	padding: 0;
+}
+
+#num1{margin: 10px;
+
+}
+label{
+	width: 40px;
+	display: inline-block;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+#num2{
+	margin: 10px;
+	margin-bottom: 50px;
+
+}
+
+#adder{
+	margin-left: 10px;
+
+}
+
+#cls{
+	margin-left: 10px;
+}
+
+input{
+	width: 50%;
+	border-style: none;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: bisque;
+	text-align: right;
+}
+
+.bottomFlex{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+button{
+	font-size: 0.8em;
+	border-radius: 7px;
+	padding: 5px;
+	border-style: none;
+}
+
+button:hover{
+	color: grey;
+	background-color: bisque;
+}
+
+button:active{
+	background-color: black;
+}
